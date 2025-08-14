@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+ <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <div class="error" id="nameError"></div>
+
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="Enter your email">
+            <div class="error" id="emailError"></div>
+
+            <label>Message:</label>
+            <textarea id="message" placeholder="Enter your message"></textarea>
+            <div class="error" id="messageError"></div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+
+    <script src="contact.js"></script>
+</body>
+</html>
